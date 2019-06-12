@@ -1,6 +1,6 @@
-@Autor: Savio Rabelo
+# Analisador Sintático
 
-Esse é um exemplo de analisador sintático para validar expressões aritméticas que incluem parênteses, colchetes e chaves.
+## Esse é um exemplo de analisador sintático para validar expressões aritméticas que incluem parênteses, colchetes e chaves.
 Foi ullizado a linguagem C para a implementação.
 
 Para executar o programa no WINDOWS é preciso realizar os seguintes passos:
