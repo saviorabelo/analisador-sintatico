@@ -5,10 +5,10 @@ Foi ullizado a linguagem C para a implementação.
 
 Para executar o programa no WINDOWS é preciso realizar os seguintes passos:
 
-1 - Instalar o MinGW, disponível em: http://www.mingw.org/, na seguinte pasta: C:\MinGW\bin.
-2 - Verificar se a pasta 'win_flex_bison-latest' está no mesmo diretório que o arquivo principal.
-3 - Compilar o analisador sintático com o script 'compila'.
-4 - E por fim, executar o arquivo 'analisador'.
+* Instalar o [MinGW](http://www.mingw.org/) na seguinte pasta: C:\MinGW\bin.
+* Verificar se a pasta 'win_flex_bison-latest' está no mesmo diretório que o arquivo principal.
+* Compilar o analisador sintático com o script 'compila'.
+* E por fim, executar o arquivo 'analisador'.
 
 Para executar o programa no LINUX é preciso realizar o seguinte script:
 
@@ -21,3 +21,4 @@ flex analisador.l
 bison -d parser.y
 gcc parser.tab.c lex.yy.c -o analisador.exe
 ./analisador.exe
+ 
