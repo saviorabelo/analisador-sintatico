@@ -5,8 +5,8 @@ Foi ullizado a linguagem C para a implementação.
 
 ### Para executar o programa no WINDOWS é preciso realizar os seguintes passos:
 
-* Instalar o [MinGW](http://www.mingw.org/) na seguinte pasta: C:\MinGW\bin.
-* Verificar se a pasta 'win_flex_bison-latest' está no mesmo diretório que o arquivo principal.
+* Instalar o [MinGW](http://www.mingw.org/) na seguinte pasta: **C:\MinGW\bin**.
+* Verificar se a pasta **win_flex_bison-latest** está no mesmo diretório que o arquivo principal.
 * Compilar o analisador sintático com o script 'compila'.
 * E por fim, executar o arquivo 'analisador'.
 
