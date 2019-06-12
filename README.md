@@ -11,7 +11,7 @@ Foi ullizado a linguagem C para a implementação.
 * E por fim, executar o arquivo 'analisador'.
 
 ### Para executar o programa no LINUX é preciso realizar o seguinte script:
-
+```
 sudo apt-get update
 sudo apt-get install flex
 sudo apt-get install bison
@@ -21,4 +21,4 @@ flex analisador.l
 bison -d parser.y
 gcc parser.tab.c lex.yy.c -o analisador.exe
 ./analisador.exe
- 
+ ```
